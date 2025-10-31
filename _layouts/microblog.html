@@ -1,23 +1,30 @@
----
-layout: default
----
-<link rel="stylesheet" href="{{ '/assets/css/microblog.css' | relative_url }}">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 2rem auto; max-width: 720px; line-height: 1.6; }
+    h1 { text-align: center; }
+    hr { border: 0; border-top: 1px solid #ddd; margin: 2em 0; }
+    h3 { margin-bottom: 0; }
+    em { color: #666; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>{{ site.title }}</h1>
+    <p style="text-align:center; color:#555;">{{ site.description }}</p>
+  </header>
 
-<h1>Microblog</h1>
+  <main class="content">
+    {{ content }}
+  </main>
 
-{% for post in site.data.microblogs %}
-  <article class="micro-post">
-    <h3>{{ post.title }}</h3>
-    <p class="date">{{ post.date | date: "%B %d, %Y" }}</p>
-    <div class="content">{{ post.content | markdownify }}</div>
-
-    {% if post.tags and post.tags.size > 0 %}
-      <p class="tags">
-        {% for tag in post.tags %}
-          <a href="{{ '/tags/' | append: tag | downcase | replace: ' ', '-' | relative_url }}" class="tag">#{{ tag }}</a>
-        {% endfor %}
-      </p>
-    {% endif %}
-  </article>
-  <hr/>
-{% endfor %}
+  <footer style="text-align:center; margin-top:3em; color:#888;">
+    © {{ site.author }} {{ "now" | date: "%Y" }}
+  </footer>
+</body>
+</html>

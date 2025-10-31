@@ -1,8 +1,6 @@
-plugins_dir: _plugins
 title: "Ehsan Toreini Microblog"
 description: "Short notes on privacy, web standards, and research."
 theme: jekyll-theme-minimal
-
 
 markdown: kramdown
 kramdown:
