@@ -1,0 +1,16 @@
+title: "Ehsan Toreini Microblog"
+description: "Short notes on privacy, web standards, and research."
+theme: jekyll-theme-minimal
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Optional metadata
+author: "Ehsan Toreini"
+
+# We’ll parse posts from a single Markdown file
+collections:
+  microblog:
+    output: false

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 2rem auto; max-width: 720px; line-height: 1.6; }
+    h1 { text-align: center; }
+    hr { border: 0; border-top: 1px solid #ddd; margin: 2em 0; }
+    h3 { margin-bottom: 0; }
+    em { color: #666; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>{{ site.title }}</h1>
+    <p style="text-align:center; color:#555;">{{ site.description }}</p>
+  </header>
+
+  <main class="content">
+    {{ content }}
+  </main>
+
+  <footer style="text-align:center; margin-top:3em; color:#888;">
+    © {{ site.author }} {{ "now" | date: "%Y" }}
+  </footer>
+</body>
+</html>
