@@ -9,7 +9,7 @@ The distinction between humanship and citizenship is occupying my mind recently.
 
 ---
 
-### Citizenship
+### Complexity of State Building
 *2025-11-06*
 
 I am recently reading Francis Fukuyama's book on "[State-Building: Governance and World Order in the 21st Century](https://www.amazon.co.uk/State-Building-Governance-World-Century-ebook/dp/B071NQBFQ8?ref_=ast_author_dp_rw&th=1&psc=1&dib=eyJ2IjoiMSJ9.bnOUApW4AgtcrDzVbo5gcfx-CirywpBhIxr4wAvWLCcQdGQxdzftJAABXSjEeg7IVk4SjX4TKas2B8d1QnxcZ5-4AY7jmP6l2rJyPTnExXtpNXOrYE3ksxLMyQgIV9TLBypxBr40N542JrRiTaYHhPS8oCWchNz_YYd7G676D4VY89e6IDElmYIBZ_X-RabCjUJTumUzeIPejPHyVJBKAJJrLMccAJ2j_3UAFwlxyok.dfjVC6JgB2oG7F2U3KA4zBGsypFKsqb9DMTep_MhXTo&dib_tag=AUTHOR)". The institution-building is a sophisticated eco-system of social construct, and this book talk about that. I can relate to that, as it discusses how institutions are made, matured and finally get irrelevant. Something that you can see is happening in front of our eyes in the world.
